@@ -1,0 +1,254 @@
+/* GLOBAL STYLES */
+
+* {
+  font-family: 'lato', sans-serif;
+}
+
+#container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITLE BANNER STYLES */
+
+#title-container {
+  display: flex;
+  width: 60%;
+  height: 125px;
+  background-color: #4682b4;
+  border-radius: 20px;
+}
+
+#title-container h1 {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+/* HOME IMAGE STYLES */
+
+#home-image {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 60%;
+  height: 400px;
+  background-image: url(images/simon-abrams-k_T9Zj3SE8k-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* HOME FORM STYLES */
+
+#home-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#home-form-container h3 {
+  background-color: #4682b4;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#home-form {
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+}
+
+#name {
+  flex: 3;
+}
+
+#room {
+  flex: 3
+}
+
+#name-room-button {
+  flex: 1;
+  background-color: #4682b4;
+  color: #fff;
+  border: 1px #4682b4 solid;
+  cursor: pointer;
+}
+
+#name-room-button:hover {
+  background-color: #325d81;
+}
+
+/* ROOM BANNER */
+
+#room-container {
+  display: none;
+  margin-top: 10px;
+  background-color: #808080;
+  color: #fff;
+  border-radius: 10px;
+  width: 60%;
+  min-height: 40px;
+}
+
+#room-container h3 {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  word-wrap: break-word;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* CHAT CONTAINER STYLES */
+
+#chat-container {
+  display: none;
+  flex-direction: row;
+  width: 60%;
+  margin-top: 10px;
+}
+
+/* SIDEBAR STYLES */
+
+#sidebar-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  height: 450px;
+}
+
+#users-list-container {
+  flex: 30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #4682b4;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#users-list-container h4 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 10px;
+  word-break: break-all;
+}
+
+#users-online {
+  padding: 10px;
+}
+
+.user {
+  margin-bottom: 20px;
+  word-break: break-all;
+}
+
+#leave-room-button {
+  flex: 1;
+  display: flex;
+  background-color: #808080;
+  border: 1px #4682b4 solid;
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+  padding: 7px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#leave-room-button:hover {
+  background-color: #595959;
+}
+
+/* CHAT MESSAGE STYLES */
+
+#messages-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  max-height: 450px;
+  flex: 6;
+  overflow-y: scroll;
+}
+
+.msg-header {
+  color: #808080;
+  margin-right: 11px;
+}
+
+.sender-msg-header {
+  color: #4682b4;
+  margin-right: 11px;
+}
+
+.message {
+  word-wrap: break-word;
+  width: 100%;
+}
+
+.msg-element {
+  background-color: #808080;
+  color: #fff;
+  border-radius: 10px;
+  padding: 19px;
+  margin-right: 11px;
+}
+
+.sender-msg-element {
+  background-color: #4682b4;
+  color: #fff;
+  border-radius: 10px;
+  padding: 19px;
+  margin-right: 11px;
+}
+
+#user-typing {
+  color: #808080;
+  margin-bottom: 10px;
+}
+
+.timestamp {
+  font-size: 0.6rem;
+  float: right;
+}
+
+/* CHAT FORM STYLES */
+
+#chat-form-container {
+  display: none;
+  width: 60%;
+  margin-top: 10px;
+}
+
+#chat-form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+}
+
+#user-message {
+  flex: 3;
+}
+
+#message-send-button {
+  flex: 1;
+  background-color: #4682b4;
+  color: #fff;
+  border: 1px #4682b4 solid;
+  cursor: pointer;
+}
+
+#message-send-button:hover {
+  background-color: #325d81;
+}
