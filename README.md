@@ -1,5 +1,5 @@
 # skyrooms
-Real time chat application with users and rooms. Node and Express on the back end, vanilla JavaScript on the front end, socket.io is used for real time, bidirectional communcation between the client and the server. jQuery used to query the DOM and of course HTML and CSS for the markup and styling. This is my second application and an upgrade on my first, Skynet Chat.
+Real time chat application with users and rooms. Node and Express on the back end, vanilla JavaScript on the front end, socket.io is used for real time, bidirectional communication between the client and the server. jQuery used to query the DOM and of course HTML and CSS for the markup and styling. This is my second application and an upgrade on my first, Skynet Chat.
 
 Features:
 
