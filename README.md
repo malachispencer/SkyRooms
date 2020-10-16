@@ -3,12 +3,12 @@ Real time chat application with users and rooms. Node and Express on the back en
 
 ![skyroomshome](https://user-images.githubusercontent.com/71923215/95295292-14eae180-0877-11eb-862e-6f63147235f3.jpg)
 
-## How to use
+## Usage
 
 ```shell
 npm install
 npm run dev
-Go to localhost:port
+localhost:port
 ```
 
 ## Features
