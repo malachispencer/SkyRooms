@@ -8,8 +8,8 @@ $(document).ready(function() {
 
   // On the client, we initialize a userName and room variable, which will be sent to the server via socket.
 
-  let userName = '';
-  let room = ''
+  let userName;
+  let room;
 
   // The user fills out the form when the page opens, which requires a username and a room name.
   // When the user submits the form, we grab their inputs and assign their values to userName and room respectively.
