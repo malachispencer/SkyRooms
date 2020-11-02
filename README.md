@@ -22,16 +22,10 @@ localhost:port
 
 4) User typing: Lets all users know when another user in their room is typing a message.
 
-![skyroomsmsgs](https://user-images.githubusercontent.com/71923215/95295909-2aacd680-0878-11eb-8773-e20a43496acb.jpg)
-
 5) Welcome and join: SkyRoom gives you a welcome message when you join a room and it lets all the other users know you have joined the room.
-   
-![skyroomsjoin](https://user-images.githubusercontent.com/71923215/95295409-4d8abb00-0877-11eb-8af5-10c3e139b52b.jpg)
-   
+      
 6) Leave: SkyRoom lets all other users know when a user leave the room.
-   
-![skyroomsleave](https://user-images.githubusercontent.com/71923215/95295535-8cb90c00-0877-11eb-8c4d-b712498292e5.jpg)
-   
+      
 7) Room display: Under the header bar, there's a bar which always lets you know what room you are in.
 
 8) Leave room button: Button you can press which exits you out of the room you are in.
