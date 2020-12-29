@@ -5,6 +5,8 @@ $(document).ready(function() {
   let userName;
   let room;
 
+  const msgsContainer = document.getElementById('messages-container');
+
   $('#home-form').submit(event => {
     event.preventDefault();
     userName = $('#name')[0].value.trim();
@@ -122,8 +124,7 @@ $(document).ready(function() {
   }
 
   function scrollToBottom() {
-    const bottom = 9007199254740991;
-    $('#messages-container').scrollTop(bottom);
+    msgsContainer.scrollTop = msgsContainer.scrollHeight;
   }
   
 });
