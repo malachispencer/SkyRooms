@@ -5,7 +5,15 @@ Real time chat application with users and rooms. Node and Express on the back en
 
 ## Usage
 
-[SkyRooms' Official Website](https://skyrooms-ms.herokuapp.com/)
+1) Visit [SkyRooms' Official Website](https://skyrooms-ms.herokuapp.com/).
+
+2) Invite one or more friends to do the same.
+
+3) Select your username and choose a room name.
+
+4) Let your friends know what room you entered. Note, room names are case sensitive!
+
+5) The SkyRooms bot will let you know when your friends join the room you're in. Once you're all there, have fun chatting!
 
 ## Features
 
