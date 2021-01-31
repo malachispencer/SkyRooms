@@ -5,7 +5,7 @@ Real time chat application with users and rooms. Node and Express on the back en
 
 ## Usage
 
-[https://skyrooms-ms.herokuapp.com](https://skyrooms-ms.herokuapp.com/)
+[SkyRooms' Official Website](https://skyrooms-ms.herokuapp.com/)
 
 ## Features
 
@@ -31,3 +31,8 @@ Real time chat application with users and rooms. Node and Express on the back en
 10) Responsive: Use of CSS Flexbox makes the application responsive in the browser.
 
 11) Most recent message: Like any chat application out there, the scrollbar follows the most recent message.
+
+## See Also
+
+* Check out Skyrooms' predecessor, [Skynet Chat](https://skynet-chat.herokuapp.com), where you can communicate with the computer and get random responses.
+* Check out my [Codewars repo](https://github.com/malachispencer/codewars), where you can find my solutions for almost 300 Codewars kata.
